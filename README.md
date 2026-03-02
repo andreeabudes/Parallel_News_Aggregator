@@ -6,7 +6,7 @@ Acest proiect se ocupă cu procesarea în paralel aunui volum mare de articole e
 * **Ștergere Duplicate:** Identifică și elimină automat articolele duplicate pe baza identificatorului `uuid` sau a titlului (`title`).
 * **Clasificare Dinamică:** Grupează articolele în funcție de categorie și limbă, validându-le pe baza unor liste de referință predefinite (`categories.txt`, `languages.txt`).
 * **Analiză Textuală (Keywords):** Analizează textul articolelor scrise în limba engleză. Cuvintele sunt convertite la litere mici, se elimină caracterele speciale și se contorizează aparițiile, ignorând o listă specifică de cuvinte de legătură (stop-words din `english_linking_words.txt`).
-* **Generare de Statistici:** Creează un fișier `reports.txt` care include metrici precum numărul de duplicate găsite, autorul de top, categoria și limba dominantă, precum și cel mai frecvent cuvânt cheie.
+* **Generare de Statistici:** Creează un fișier `reports.txt` care include numărul de duplicate găsite, categoria și limba dominantă, precum și cel mai frecvent cuvânt cheie.
 
 ## Paralelizare
 
